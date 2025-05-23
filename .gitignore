@@ -1,0 +1,66 @@
+proj.android/
+proj.ios_mac/
+proj.linux/
+
+# === Build output ===
+build/
+bin/
+obj/
+Debug/
+Release/
+*.pch
+*.dll
+*.lib
+*.pdb
+*.ilk
+*.log
+*.obj
+
+# === Visual Studio ===
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.VC.db
+*.VC.opendb
+
+# === Cocos2d-x cache/temp ===
+*.apk
+*.ipa
+*.tmp
+*.bak
+*.temp
+*.log
+
+# === CMake ===
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# === Windows files ===
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# === macOS/Linux ===
+.DS_Store
+
+# === IDE ===
+.idea/
+*.iml
+
+# === Gradle/Android (if applicable) ===
+.gradle/
+local.properties
+*.cxx/
+.externalNativeBuild/
+
+# === Cocos2d-x External ===
+cocos2d/external/
+
+# === Don't ignore project settings ===
+!*.sln
+!*.vcxproj
+!*.vcxproj.filters
